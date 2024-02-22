@@ -1,6 +1,3 @@
-Certainly! Below is a sample README.md file that you can use to provide comprehensive information about your notebooks, Streamlit app, and the dataset:
-
-```markdown
 # Diabetes Prediction
 
 This repository contains code for predicting diabetes using machine learning models. It includes Jupyter notebooks for data exploration, model training, evaluation, and a Streamlit web application for real-time predictions.
@@ -51,7 +48,3 @@ pip install -r requirements.txt
 - [Amish Suchak](https://github.com/amish-suchak)
 
 Feel free to contribute to this project by opening issues or pull requests.
-
-```
-
-You can customize this README.md file with your specific project details, such as contributors, usage instructions, and additional sections as needed. Make sure to replace placeholders like `yourusername` with appropriate information.
