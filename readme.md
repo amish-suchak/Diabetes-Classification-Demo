@@ -22,7 +22,7 @@ The Streamlit web application allows users to input their health data and get pr
 To run the Streamlit app locally, use the following command:
 
 ```
-streamlit run diabetes_prediction_app.py
+streamlit run app.py
 ```
 
 ## Usage
