@@ -1,3 +1,6 @@
+Certainly! Below is a sample README.md file that you can use to provide comprehensive information about your notebooks, Streamlit app, and the dataset:
+
+```markdown
 # Diabetes Prediction
 
 This repository contains code for predicting diabetes using machine learning models. It includes Jupyter notebooks for data exploration, model training, evaluation, and a Streamlit web application for real-time predictions.
@@ -11,17 +14,9 @@ The dataset contains several features related to health metrics and a binary cla
 
 ## Notebooks
 
-### 1. Data Exploration.ipynb
+### 1. Logistic_regression_notebook.ipynb
 
-This notebook explores the dataset to understand its structure, distributions, and relationships between variables. It includes visualizations such as histograms, scatter plots, and correlation matrices.
-
-### 2. Model Training.ipynb
-
-In this notebook, machine learning models are trained using the dataset. Logistic Regression, Decision Trees, and Random Forest classifiers are implemented and evaluated using cross-validation techniques.
-
-### 3. Model Evaluation.ipynb
-
-The trained models from the previous notebook are evaluated further using various performance metrics such as accuracy, precision, recall, and F1-score. Confusion matrices and ROC curves are also plotted for detailed analysis.
+This notebook trains a lr model to predict if a patient has diabetes.
 
 ## Streamlit Web Application
 
@@ -29,3 +24,34 @@ The Streamlit web application allows users to input their health data and get pr
 
 To run the Streamlit app locally, use the following command:
 
+```
+streamlit run diabetes_prediction_app.py
+```
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/diabetes-prediction.git
+```
+
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the Jupyter notebooks to explore the dataset, train models, and evaluate performance.
+
+4. Run the Streamlit app and input patient data to get predictions.
+
+## Contributors
+
+- [Amish Suchak](https://github.com/amish-suchak)
+
+Feel free to contribute to this project by opening issues or pull requests.
+
+```
+
+You can customize this README.md file with your specific project details, such as contributors, usage instructions, and additional sections as needed. Make sure to replace placeholders like `yourusername` with appropriate information.
